@@ -64,6 +64,7 @@
 	colnames(tbl_finalall)[colnames(tbl_finalall)=="std"] <- "AVG_STD"
 	View(tbl_finalall)
 	tbl_finalall
+	write.table(tbl_finalall,"tidy_final.txt",row.name=FALSE)
   }
 
 
