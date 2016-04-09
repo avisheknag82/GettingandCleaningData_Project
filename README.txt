@@ -2,11 +2,10 @@ FILE DETAILS
 =============
 The github repository contains the follwing files - 
 
-1)run_analysis.R - RScript  that merges the training and test datasets  and then creates a independent tidy dataset 
-				   with the average of each variable for each activity and each subject.
+1)run_analysis.R - RScript  that merges the training and test datasets  and then creates a independent tidy dataset with the average of 
+each variable for each activity and each subject.
 2) Codebook - indicate all the variables and summaries calculated
 3) README.txt - Details of the files, scripts and codebooks creatred for the Assignment.
-
 
 Instructions to run the run_analysis.R Script
 =============================================
