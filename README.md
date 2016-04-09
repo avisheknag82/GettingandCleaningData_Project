@@ -25,7 +25,7 @@ subject_test
 3) Copy the script run_analysis.R to work directory.
 4) Run below commands - 
 i)source("run_analysis.R")
-ii)final_ds <- create_dataset()
+ii)create_dataset()
 
 4) The final tidy summarized dataset will be present in final_ds
 
