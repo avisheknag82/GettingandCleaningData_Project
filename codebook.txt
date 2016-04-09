@@ -1,0 +1,33 @@
+Instructions for run_analysis.R Script
+======================================
+
+1)Pre-requisites - Both dplyr and tidyr package must be installed.
+2) Copy the below Project datasets to your work directory - 
+a)features.txt
+b)activity_labels.txt
+c)X_train.txt
+d)x_test.txt
+e)X_test.txt
+f)y_test.txt
+g)subject_train
+h)subject_test
+3) Copy the script run_analysis.R to work directory.
+4) Run below commands - 
+i)source("run_analysis.R")
+ii)final_ds <- create_dataset()
+4) The final tidy summarized dataset will be present in dataframe -  final_ds
+
+FINAL TIDY DATASET
+==================
+  
+The final tidy dataset has below columns - 
+1) ACTIVITY_ID - ID for each activity
+2) ACTIVITY - Name for the Activity (like Walking,Sitting)
+3) SUBJECT - Subject ID who performed the experiment
+4) FEATURE - Each Feature or Observation is in separate row for each Activity and Subject.
+5) AXIS - Describes the Axis on which the Observation is done if applicable. Each axis observation is in separate row. 
+6) AVG_MEAN - AVERAGE of Mean corresponding to each observation type for each subject and Activity.
+7) AVG_STD - AVERAGE of Standard Deviation corresponding to each observation type for each subject and Activity. 
+8) Snapshot of final dataset is below - 
+
+ 
